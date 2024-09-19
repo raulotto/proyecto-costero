@@ -13,12 +13,14 @@ import About from './pages/About';
     <Router>
       <div>
         <Header/>
-        <main>
+        <main className="h-screen">
+          <div className='container mx-auto py-10'>
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path= "/about" element={<About/>}/>
 
           </Routes>
+          </div>
         </main>
         <Footer/>
       </div>
