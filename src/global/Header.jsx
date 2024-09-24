@@ -24,7 +24,9 @@ const Header = () => {
                 
                 {/* Logo */}
                 <div className='headerLogo flex justify-start'>
+                <Link to="/">
                   <img src="https://www.costadelsolperu.com/wp-content/uploads/2022/12/logo-costa-color1.svg" alt="Logo Costa del Sol" className="h-10" />
+                </Link>
                 </div>
 
                 {/* Botón central */}
@@ -37,10 +39,13 @@ const Header = () => {
                 {/* Menú de navegación */}
                 <div className='navigationMenu flex justify-end'>
                   <ul className="flex space-x-6 text-blue-700">
+                    <li><a href="#" className="hover:text-orange-600">INICIO</a></li>
+                    <li><a href="#" className="hover:text-orange-600">ABOUT</a></li>
                     <li><a href="#" className="hover:text-orange-600">HOTELES</a></li>
                     <li><a href="#" className="hover:text-orange-600">PAQUETES</a></li>
                     <li><a href="#" className="hover:text-orange-600">PROMOCIONES</a></li>
                     <li><a href="#" className="hover:text-orange-600">ORGANIZA TU EVENTO</a></li>
+                    
                   </ul>
                 </div>
 
