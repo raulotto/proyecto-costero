@@ -11,7 +11,7 @@ import About from './pages/About';
   return (
     
     <Router>
-      <div>
+      <>
         <Header/>
         <main className="h-screen">
           <div className='container mx-auto py-10'>
@@ -23,7 +23,7 @@ import About from './pages/About';
           </div>
         </main>
         <Footer/>
-      </div>
+      </>
 
 
     </Router>
