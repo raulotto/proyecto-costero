@@ -4,6 +4,7 @@ import Header from './global/Header'
 import Footer from './global/Footer'
 import Home from './pages/Home';
 import About from './pages/About';
+import Contacto from './pages/Contacto';
 
 
  const App = () => {
@@ -18,6 +19,7 @@ import About from './pages/About';
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path= "/about" element={<About/>}/>
+            <Route path='/contacto'element={<Contacto/>}/>
 
           </Routes>
           </div>

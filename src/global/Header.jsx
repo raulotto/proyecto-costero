@@ -21,12 +21,12 @@ const Header = () => {
             {/* Barra Menú principal */}
             <div className='main-menu bg-white py-4'>
               <div className="container mx-auto grid grid-cols-3 items-center">
-                
+
                 {/* Logo */}
                 <div className='headerLogo flex justify-start'>
-                <Link to="/">
-                  <img src="https://www.costadelsolperu.com/wp-content/uploads/2022/12/logo-costa-color1.svg" alt="Logo Costa del Sol" className="h-10" />
-                </Link>
+                  <Link to="/">
+                    <img src="https://www.costadelsolperu.com/wp-content/uploads/2022/12/logo-costa-color1.svg" alt="Logo Costa del Sol" className="h-10" />
+                  </Link>
                 </div>
 
                 {/* Botón central */}
@@ -39,13 +39,44 @@ const Header = () => {
                 {/* Menú de navegación */}
                 <div className='navigationMenu flex justify-end'>
                   <ul className="flex space-x-6 text-blue-700">
-                    <li><a href="#" className="hover:text-orange-600">INICIO</a></li>
-                    <li><a href="#" className="hover:text-orange-600">ABOUT</a></li>
-                    <li><a href="#" className="hover:text-orange-600">HOTELES</a></li>
-                    <li><a href="#" className="hover:text-orange-600">PAQUETES</a></li>
-                    <li><a href="#" className="hover:text-orange-600">PROMOCIONES</a></li>
-                    <li><a href="#" className="hover:text-orange-600">ORGANIZA TU EVENTO</a></li>
-                    
+                    <li>
+                      <Link to="/" className="hover:text-orange-600">
+                        INICIO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/about" className="hover:text-orange-600">
+                        ABOUT
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/hoteles" className="hover:text-orange-600">
+                        HOTELES
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/paquetes" className="hover:text-orange-600">
+                        PAQUETES
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/promociones" className="hover:text-orange-600">
+                        PROMOCIONES
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/organiza-evento" className="hover:text-orange-600">
+                        ORGANIZA TU EVENTO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/contacto" className="hover:text-orange-600">
+                        CONTACTO
+                      </Link>
+                    </li>
+
+
+
                   </ul>
                 </div>
 
