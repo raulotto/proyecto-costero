@@ -1,0 +1,116 @@
+
+/* Estilos generales */
+.hotel-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor de imagen */
+.hotel-card .image-container {
+  width: 100%;
+  height: 300px;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 300px;
+}
+
+/* Contenedor de información del hotel */
+.hotel-card .hotel-info-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.hotel-card .text-container {
+  margin-bottom: 20px;
+}
+
+.hotel-card .hotel-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hotel-card .hotel-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hotel-card .hotel-description {
+  font-size: 1rem;
+}
+
+/* Contenedor de valoración */
+.hotel-card .rating-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotel-card .stars {
+  font-size: 1.5rem;
+}
+
+.hotel-card .rating-text {
+  font-size: 1rem;
+}
+
+/* Contenedor del formulario de reserva */
+.hotel-card .form-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hotel-card .dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hotel-card .date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-card .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hotel-card .add-code-button,
+.hotel-card .reserve-button {
+  flex: 1;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hotel-card .reserve-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.hotel-card .add-code-button:hover,
+.hotel-card .reserve-button:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor de enlaces de ayuda */
+.hotel-card .help-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-card .help-container a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

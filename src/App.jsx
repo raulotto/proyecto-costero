@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contacto from './pages/Contacto';
 import Nosotros from './pages/Nosotros';
 import Rooms from './pages/Rooms';
+import LimaCity from './pages/hotels/LimaCity';
 
 
 
@@ -17,7 +18,7 @@ import Rooms from './pages/Rooms';
     <Router>
       <>
         <Header/>
-        <main className="h-screen">
+        <main>
           <div className='container mx-auto py-10'>
           <Routes>
             <Route path="/" element={<Home/>}/>
@@ -25,7 +26,9 @@ import Rooms from './pages/Rooms';
             <Route path='/contacto'element={<Contacto/>}/>
             <Route path='/nosotros'element={<Nosotros/>}/>
             <Route path='rooms'element={<Rooms/>}/>
+            <Route path='limacity'element={<LimaCity/>}/>
 
+            
 
 
           </Routes>
