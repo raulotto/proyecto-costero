@@ -50,28 +50,13 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/hoteles" className="hover:text-orange-600">
-                        HOTELES
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/paquetes" className="hover:text-orange-600">
-                        PAQUETES
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/promociones" className="hover:text-orange-600">
-                        PROMOCIONES
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/organiza-evento" className="hover:text-orange-600">
-                        ORGANIZA TU EVENTO
-                      </Link>
-                    </li>
-                    <li>
                       <Link to="/contacto" className="hover:text-orange-600">
                         CONTACTO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/rooms" className="hover:text-orange-600">
+                        ROOMS
                       </Link>
                     </li>
                   </ul>
