@@ -18,7 +18,7 @@ import LimaCity from './pages/hotels/LimaCity';
     <Router>
       <>
         <Header/>
-        <main className="h-screen">
+        <main>
           <div className='container mx-auto py-10'>
           <Routes>
             <Route path="/" element={<Home/>}/>
