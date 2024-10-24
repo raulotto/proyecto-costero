@@ -5,6 +5,9 @@ import Footer from './global/Footer'
 import Home from './pages/Home';
 import About from './pages/About';
 import Contacto from './pages/Contacto';
+import Nosotros from './pages/Nosotros';
+import Rooms from './pages/Rooms';
+
 
 
  const App = () => {
@@ -20,6 +23,10 @@ import Contacto from './pages/Contacto';
             <Route path="/" element={<Home/>}/>
             <Route path= "/about" element={<About/>}/>
             <Route path='/contacto'element={<Contacto/>}/>
+            <Route path='/nosotros'element={<Nosotros/>}/>
+            <Route path='rooms'element={<Rooms/>}/>
+
+
 
           </Routes>
           </div>
