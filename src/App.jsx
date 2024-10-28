@@ -8,6 +8,7 @@ import Contacto from './pages/Contacto';
 import Nosotros from './pages/Nosotros';
 import Rooms from './pages/Rooms';
 import LimaCity from './pages/hotels/LimaCity';
+import InternalMenu from './pages/hotels/InternalMenu';
 
 
 
@@ -27,11 +28,12 @@ import LimaCity from './pages/hotels/LimaCity';
             <Route path='/nosotros'element={<Nosotros/>}/>
             <Route path='rooms'element={<Rooms/>}/>
             <Route path='limacity'element={<LimaCity/>}/>
-
+            <Route path='internalmenu'element={<InternalMenu/>}/>
             
 
-
+            
           </Routes>
+
           </div>
         </main>
         <Footer/>

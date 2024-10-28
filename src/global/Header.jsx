@@ -64,6 +64,11 @@ const Header = () => {
                         LIMA CITY
                       </Link>
                     </li>
+                     <li>
+                      <Link to="/" className="hover:text-orange-600">
+                        INICIO
+                      </Link>
+                    </li>
                   </ul>
                 </div>
 
