@@ -169,7 +169,7 @@ const LimaCity = () => {
         </div>
 
         {/* Sección de Promoción */}
-        <div className="mt-8">
+        <div className="mt-8" id="promocion">
           <img
             src="URL_DEL_BANNER_PROMOCION"
             alt="Promociones Cyberween"
@@ -178,7 +178,7 @@ const LimaCity = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-6" id="beneficios">
         {/* Sección de Beneficios */}
         <div className="bg-blue-600 rounded-lg p-6 mb-8">
           <h2 className="text-white text-xl font-bold mb-4 text-center">
