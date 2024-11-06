@@ -9,6 +9,8 @@ import Nosotros from './pages/Nosotros';
 import Rooms from './pages/Rooms';
 import LimaCity from './pages/hotels/LimaCity';
 import InternalMenu from './pages/hotels/InternalMenu';
+import Claims from './global/forms/Claims';
+
 
 
 
@@ -29,6 +31,10 @@ import InternalMenu from './pages/hotels/InternalMenu';
             <Route path='rooms'element={<Rooms/>}/>
             <Route path='limacity'element={<LimaCity/>}/>
             <Route path='internalmenu'element={<InternalMenu/>}/>
+            <Route path="/global/forms/claims" element={<Claims />} />
+
+
+            
             
 
             

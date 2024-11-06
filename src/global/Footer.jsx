@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Claims from './forms/Claims';
 
 const Footer = () => {
   return (
@@ -69,12 +71,15 @@ const Footer = () => {
             <a href="#"><i className="fas fa-paw"></i></a>
           </div>
 
-          {/* Certifications */}
+          {/* Certifications and ClaimsBook */}
           <div className="flex space-x-8">
-            <img src="/ruta-certificado.png" alt="Certificado Wyndham Green" className="h-10"/>
-            <img src="/ruta-libro-reclamaciones.png" alt="Libro de Reclamaciones" className="h-10"/>
+            <img src="" alt="Certificado Wyndham Green" className="h-10"/>
+            <Link to="./global/forms/claims">
+              <img src="/ruta-libro-reclamaciones.png" alt="Libro de Reclamaciones" className="h-10"/>
+            </Link>
           </div>
         </div>
+
 
         {/* Bottom links */}
         <div className="mt-10 border-t pt-4 text-center">
@@ -88,6 +93,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
     </footer>
   );
 };
